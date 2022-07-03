@@ -9,7 +9,7 @@ const email = ref('');
 const message = ref('');
 
 const submit = () => {
-	const access_key = '49ef17a0-8a59-40c9-b861-65ccc0edc090'
+	const access_key = '8a7a0376-483e-4947-803b-fb0a4e058d66'
 	axios.post('https://api.web3forms.com/submit', {
 		access_key,
 		email: email.value,
