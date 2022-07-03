@@ -19,7 +19,7 @@ const submit = () => {
 		if (res.status === 200) {
 			Swal.fire({
 				title: '感謝您成為貓奴的一份子',
-				text: '我們會盡快將您的肺腑之言稟告灰灰娘娘',
+				text: '我們會盡快將您的肺腑之言稟告灰灰',
 				icon: 'success',
 				confirmButtonText: '確定'
 			})
@@ -45,7 +45,7 @@ const submit = () => {
 					<div>
 						<MailIcon class="w-6 h-6"/>
 					</div>
-					<p>contact@test.com</p>
+          <p>contact@test.com</p>
 				</div>
 			</div>
 		</div>
